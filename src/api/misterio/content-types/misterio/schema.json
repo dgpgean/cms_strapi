@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "misterios",
+  "info": {
+    "singularName": "misterio",
+    "pluralName": "misterios",
+    "displayName": "Mistérios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "rosario_id": {
+      "type": "integer"
+    },
+    "dias": {
+      "type": "string"
+    },
+    "primeiro_misterio": {
+      "type": "richtext"
+    },
+    "segundo_misterio": {
+      "type": "richtext"
+    },
+    "terceiro_misterio": {
+      "type": "richtext"
+    },
+    "quarto_misterio": {
+      "type": "richtext"
+    },
+    "quinto_misterio": {
+      "type": "richtext"
+    }
+  }
+}

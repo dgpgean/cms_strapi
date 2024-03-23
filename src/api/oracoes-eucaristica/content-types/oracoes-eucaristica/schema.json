@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oracoes_eucaristicas",
+  "info": {
+    "singularName": "oracoes-eucaristica",
+    "pluralName": "oracoes-eucaristicas",
+    "displayName": "Orações Eucaristica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}
