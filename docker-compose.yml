@@ -20,6 +20,7 @@ services:
     volumes:
       - ./:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
+      - ./ssl:/etc/ssl
     depends_on:
       - nodejs
     networks:
