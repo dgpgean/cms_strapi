@@ -9,6 +9,6 @@ services:
     container_name: nodejs
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8095:80"
 
 
