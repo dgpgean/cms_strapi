@@ -47,6 +47,9 @@
     },
     "evangelho_estrofe": {
       "type": "text"
+    },
+    "cor_do_dia": {
+      "type": "string"
     }
   }
 }
